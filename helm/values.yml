@@ -1,0 +1,8 @@
+homarr:
+  encryption:
+    enabled: true
+    existingSecret: db-encryption
+    key: ENCRYPTION_KEY
+replicaCount: 2
+podLabels:
+  hello: world
